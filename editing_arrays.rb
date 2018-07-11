@@ -13,9 +13,9 @@ end
 puts change_rainbow_colors
 
 def add_colors
-RAIN << "green"
-rainbow_colors << "blue"
-return rainbow_colors
+RAINBOW_COLORS << "green"
+RAINBOW_COLORS << "blue"
+return RAINBOW_COLORS
 end
 
 puts add_colors
